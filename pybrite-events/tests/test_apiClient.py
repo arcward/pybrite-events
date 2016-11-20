@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) $year - Edward Wells
+Copyright (c) 2016 - Edward Wells
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,6 +25,7 @@ from unittest import TestCase
 from configparser import ConfigParser
 from .. import client
 from datetime import datetime
+
 
 class TestApiClient(TestCase):
     def setUp(self):
@@ -52,6 +53,8 @@ class TestApiClient(TestCase):
         print(result)
         
     def test_events_by_date(self):
-        date_keyword = "this_week"
+        date_keyword = "this_weekend"
         result = self.eb.events.by_start_date_keyword(date_keyword)
         print(result)
+        next_result = result.next()
+        print(next_result)

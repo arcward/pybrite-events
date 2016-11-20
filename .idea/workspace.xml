@@ -35,8 +35,8 @@
           <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pybrite-events/client.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="271">
-                  <caret line="50" column="29" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="29" />
+                <state relative-caret-position="86">
+                  <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -49,10 +49,10 @@
           <file leaf-file-name="test_apiClient.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="458">
-                  <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+                <state relative-caret-position="463">
+                  <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
                   <folding>
-                    <element signature="e#1080#1109#0" expanded="true" />
+                    <element signature="e#1079#1108#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/pybrite-events/__init__.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/pybrite-events/tests/config.ini" />
-        <option value="$PROJECT_DIR$/pybrite-events/client.py" />
         <option value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
+        <option value="$PROJECT_DIR$/pybrite-events/client.py" />
       </list>
     </option>
   </component>
@@ -411,40 +411,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 08m 24s.xml">
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 48m 46s.xml">
       <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 08m 58s.xml">
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 49m 57s.xml">
       <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 10m 11s.xml">
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 50m 24s.xml">
       <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 10m 30s.xml">
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 51m 22s.xml">
       <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_location - 2016.11.20 at 16h 03m 02s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_location" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 52m 33s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_location - 2016.11.20 at 16h 03m 31s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_location" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 52m 39s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_location - 2016.11.20 at 16h 04m 14s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_location" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 53m 30s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_location - 2016.11.20 at 16h 04m 44s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_location" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 53m 51s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_location - 2016.11.20 at 16h 06m 02s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_location" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 54m 39s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_find - 2016.11.20 at 16h 05m 39s.xml">
-      <configuration name="Unittest TestApiClient.test_find" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 55m 23s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14539006" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -455,7 +455,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3575298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -481,21 +481,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
-          <line>51</line>
+          <line>52</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="5" />
+          <line>59</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -556,21 +556,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pybrite-events/client.py">
+    <entry file="file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="463">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="e#1079#1108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py">
+    <entry file="file://$PROJECT_DIR$/pybrite-events/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="86">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#1080#1109#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
