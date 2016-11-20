@@ -25,8 +25,8 @@
           <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pybrite-events/client.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+                <state relative-caret-position="328">
+                  <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -39,8 +39,8 @@
           <file leaf-file-name="test_apiClient.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="429">
-                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                <state relative-caret-position="339">
+                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                   <folding>
                     <element signature="e#1079#1108#0" expanded="true" />
                   </folding>
@@ -173,29 +173,7 @@
       <recent name="C:\Users\edward\PycharmProjects\pybrite-events\pybrite-events" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestApiClient.test_events_by_date">
-    <configuration default="false" name="Unittest TestApiClient.test_find" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybrite-events/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pybrite-events" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
-      <option name="CLASS_NAME" value="TestApiClient" />
-      <option name="METHOD_NAME" value="test_find" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittest TestApiClient.test_events_by_keyword">
     <configuration default="false" name="Unittest TestApiClient.test_events_by_location" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,6 +209,72 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
       <option name="CLASS_NAME" value="TestApiClient" />
       <option name="METHOD_NAME" value="test_events_by_date" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestApiClient.test_events_by_keyword" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybrite-events/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pybrite-events" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
+      <option name="CLASS_NAME" value="TestApiClient" />
+      <option name="METHOD_NAME" value="test_events_by_keyword" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestApiClient.test_by_date_convenience" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybrite-events/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pybrite-events" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
+      <option name="CLASS_NAME" value="TestApiClient" />
+      <option name="METHOD_NAME" value="test_by_date_convenience" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestApiClient.test_venue_by_id" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pybrite-events/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pybrite-events" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py" />
+      <option name="CLASS_NAME" value="TestApiClient" />
+      <option name="METHOD_NAME" value="test_venue_by_id" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -374,16 +418,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_find" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_location" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_date" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_location" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_date" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_keyword" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_by_date_convenience" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_venue_by_id" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_date" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_location" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_find" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_keyword" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_by_date_convenience" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_venue_by_id" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_date" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestApiClient.test_events_by_location" />
       </list>
     </recent_temporary>
   </component>
@@ -401,35 +449,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 54m 39s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_by_date_convenience - 2016.11.20 at 17h 34m 29s.xml">
+      <configuration name="Unittest TestApiClient.test_by_date_convenience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 55m 23s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_by_date_convenience - 2016.11.20 at 17h 42m 08s.xml">
+      <configuration name="Unittest TestApiClient.test_by_date_convenience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 16h 58m 10s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_by_date_convenience - 2016.11.20 at 17h 42m 42s.xml">
+      <configuration name="Unittest TestApiClient.test_by_date_convenience" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 01m 59s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 39m 53s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 02m 50s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 40m 22s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 03m 36s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 40m 55s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 04m 06s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 42m 56s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 04m 28s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 43m 19s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 05m 16s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_events_by_keyword - 2016.11.20 at 17h 47m 24s.xml">
+      <configuration name="Unittest TestApiClient.test_events_by_keyword" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestApiClient_test_events_by_date - 2016.11.20 at 17h 06m 29s.xml">
-      <configuration name="Unittest TestApiClient.test_events_by_date" configurationId="tests" />
+    <history-entry file="Unittest_TestApiClient_test_venue_by_id - 2016.11.20 at 17h 25m 11s.xml">
+      <configuration name="Unittest TestApiClient.test_venue_by_id" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -445,7 +493,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3575298" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,8 +537,23 @@
           <line>63</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -557,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pybrite-events/tests/test_apiClient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#1079#1108#0" expanded="true" />
           </folding>
@@ -567,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pybrite-events/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="328">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
           <folding />
         </state>
       </provider>

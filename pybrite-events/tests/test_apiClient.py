@@ -64,3 +64,18 @@ class TestApiClient(TestCase):
         print(result)
         next_result = result.next()
         print(next_result)
+        
+    def test_by_date_convenience(self):
+        result = self.eb.events.tomorrow()
+        print(result)
+        
+    def test_events_by_keyword(self):
+        word = 'Atlanta'
+        self.eb.events.with_venues=True
+        result = self.eb.events.by_keyword(word)
+        print(result)
+        
+    def test_venue_by_id(self):
+        venue_id = '15317054'
+        result = self.eb.venues.by_id(venue_id)
+        print(result)
