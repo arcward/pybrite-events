@@ -22,3 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
+
+class ApiClient:
+    def __init__(self, auth_token):
+        self.auth_token = auth_token
+        
+    
