@@ -31,15 +31,14 @@ class Eventerator:
     Handles paginated API responses."""
     def __init__(self, api_client, event_list, search_params):
         # Keep client/params on hand to request the next page
-        self.api_client = api_client
-        self.events = event_list.get('events')
-        self.search_params = search_params
-        # 'Paginated' dict in API response
-        pagination = event_list.get('pagination')
-        self.page = pagination['page_number']
-        self.page_count = pagination['page_count']
-        self.page_size = pagination['page_size']
-        self.object_count = pagination['object_count']
+        self.api_client     = api_client
+        self.search_params  = search_params
+        self.events         = event_list.get('events')
+        pagination          = event_list.get('pagination')
+        self.page           = pagination['page_number']
+        self.page_count     = pagination['page_count']
+        self.page_size      = pagination['page_size']
+        self.object_count   = pagination['object_count']
                         
     def next(self):
         """Returns the next page of a paginatied response, if there is one."""
@@ -50,7 +49,6 @@ class Eventerator:
         else:
             raise StopIteration()
 
-
         def __iter__(self):
             return self
 
@@ -58,17 +56,21 @@ class Eventerator:
 class Events:
     def __init__(self, api_client, location={}):
         """Initialize with API client. Specify location to limit results.
-        :param api_client:
+        
+        :param api_client: api client to use for searches
         :param location: A dictionary with parameters for latitude, longitude,
         radius. See by_location for more.
         """
         self.api_client = api_client
         self.method = 'events/search/'
-        self.universal_params = {}.update(location)  # added to all searches
+        self.location = location  # added to all requests
         
     def _send_request(self, **search_parameters):
-        result = self.api_client.find(method=self.method,
-                                      **search_parameters)
+        search_parameters.update(self.location)
+        result = self.api_client.find(
+            method=self.method,
+            **search_parameters
+        )
         return Eventerator(self.api_client, result, search_parameters)
         
     def by_location(self, latitude, longitude, radius):
@@ -80,9 +82,9 @@ class Events:
         :return: Events within the area specified
         """
         search_parameters = {
-            'location.latitude': latitude,
-            'location.longitude': longitude,
-            'location.within': radius
+            'location.latitude':    latitude,
+            'location.longitude':   longitude,
+            'location.within':      radius
         }
         return self._send_request(**search_parameters)
     
@@ -98,21 +100,18 @@ class Events:
 
 class ApiClient:
     """Basic API client for Eventbrite API"""
-    def __init__(self, auth_token, version='v3'):
-        self.auth_header = {
-            "Authorization":
-                "Bearer {token}".format(token=auth_token)
-        }
-        self.url = base_url.format(version=version)
-        methods = {'event': 'events/', 'venue': 'venues/'}
+    def __init__(self, auth_token, version='v3', search_location=None):
+        """Initialize API client
         
-        self.events = Events(api_client=self)
-        
-    def paginate(self):
-        """Handles pagination
-        See: https://www.eventbrite.com/developer/v3/reference/pagination/
+        :param auth_token: eventbrite auth token
+        :param version: API version (default: v3)
+        :param search_location: Confine all searches to this area. In format
+        latitude/longitude/radius (radius being integer followed by 'mi' or 'km')
         """
-        pass
+        self.auth_header = {"Authorization":
+                                "Bearer {token}".format(token=auth_token)}
+        self.url = base_url.format(version=version)
+        self.events = Events(api_client=self, location=search_location)
         
     def find(self, method, **search_parameters):
         find_url = "{}{}".format(self.url, method)

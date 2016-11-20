@@ -33,7 +33,13 @@ class TestApiClient(TestCase):
         conf.read('config.ini')
         token = conf.get('eventbrite', 'auth_token')
         print('Auth token: {}'.format(token))
-        self.eb = client.ApiClient(auth_token=token)
+        default_location = {
+            'location.within': '10mi',
+            'location.latitude': '33.7838737',
+            'location.longitude': '-84.366088'
+        }
+        self.eb = client.ApiClient(auth_token=token,
+                                   search_location=default_location)
         
     def test_find(self):
         location = {
