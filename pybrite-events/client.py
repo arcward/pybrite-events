@@ -21,10 +21,54 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
+import requests
+
+base_url = "https://www.eventbriteapi.com/{version}/"
+
+
+# class Events:
+#     def __init__(self, api_client):
+#         self.api_client = api_client
+#         self.search_url =
+#
+#     def search(self):
+        
+
+class Events:
+    def __init__(self, api_client):
+        self.api_client = api_client
+        self.method = 'events/search/'
+        
+    def by_location(self, latitude, longitude, radius):
+        search_parameters = {
+            'location.latitude': latitude,
+            'location.longitude': longitude,
+            'location.within': radius
+        }
+        return self.api_client.find(method=self.method,
+                                    **search_parameters)
+    
+    def by_start_date_keyword(self, start_date_keyword):
+        return self.api_client.find(self.method,
+                                    **{'start_date.keyword': start_date_keyword})
 
 
 class ApiClient:
-    def __init__(self, auth_token):
-        self.auth_token = auth_token
+    def __init__(self, auth_token, version='v3'):
+        self.auth_header = {
+            "Authorization":
+                "Bearer {token}".format(token=auth_token)
+        }
+        self.url = base_url.format(version=version)
+        methods = {'event': 'events/', 'venue': 'venues/'}
         
+        self.events = Events(api_client=self)
+        
+    def find(self, method, **search_parameters):
+        find_url = "{}{}".format(self.url, method)
+        result = requests.get(
+            find_url,
+            headers=self.auth_header,
+            params=search_parameters).json()
+        return result
     
