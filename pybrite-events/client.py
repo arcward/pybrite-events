@@ -41,7 +41,7 @@ class Eventerator:
         self.object_count   = pagination['object_count']
                         
     def next(self):
-        """Returns the next page of a paginatied response, if there is one."""
+        """Returns the next page of a paginated response, if there is one."""
         if self.page <= self.page_count:
             self.page += 1
             self.search_params.update({'page': self.page})
@@ -54,6 +54,7 @@ class Eventerator:
 
 
 class Venues:
+    """Class for venue searches."""
     def __init__(self, api_client, location={}):
         self.api_client = api_client
         self.method='venues/{id}/'
@@ -96,9 +97,9 @@ class Events:
                 venue_ids[venue_id] = self.api_client.venues.by_id(venue_id)
                 event.update({'venue': venue_ids.get(venue_id)})
         return event_list
-
                     
     def _send_request(self, **search_parameters):
+        """Final stop before sending a request to the API client"""
         search_parameters.update(self.location)
         result = self.api_client.find(
             method=self.method,
